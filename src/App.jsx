@@ -33,7 +33,7 @@ export default function App() {
       <header className='sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-slate-950/50 border-b border-white/10'>
         <div className='mx-auto max-w-7xl px-4 py-3 flex items-center justify-between'>
           <div className='flex items-center gap-4'>
-            <img src={logoSrc} alt='Blue Sky Oil Services' className='h-20 md:h-24 w-[280px] md:w-[360px] rounded-xl object-contain drop-shadow-lg' />
+            <img src={logoSrc} alt='Blue Sky Oil Services' className='h-20 md:h-24 w-auto rounded-lg object-contain drop-shadow-lg' />
             <span className='font-semibold tracking-wide'>Blue Sky Oil Services Consultancy</span>
           </div>
           <nav className='hidden md:flex items-center gap-6 text-sm text-slate-300'>

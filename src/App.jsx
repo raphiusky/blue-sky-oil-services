@@ -4,7 +4,7 @@ import { TrendingUp, ShieldCheck, Wrench, Gauge, Database, LineChart, Droplets, 
 
 export default function App() {
   const [openFAQ, setOpenFAQ] = useState(0)
-  const logoSrc = '/logo-bluesky.png' // replace with your final logo in /public
+  const logoSrc = '/Logo Blue Sky oil services.png' // replace with your final logo in /public
 
   const metrics = [
     { label: 'NPT reduction', value: '15–25%' },
